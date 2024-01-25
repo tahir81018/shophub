@@ -16,13 +16,13 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route exact path="/" Component={Home} />
-        <Route exact path="/products" Component={Product} />
-        <Route exact path="/products/:id" Component={ProductDetail} />
-        <Route exact path="/cart" Component={Cart} />
-        <Route exact path="/checkout" Component={Checkout} />
-        <Route exact path="/about" Component={About} />
-        <Route exact path="/contact" Component={Contact} />
+        <Route exact path="/shophub/" Component={Home} />
+        <Route exact path="/shophub/products" Component={Product} />
+        <Route exact path="/shophub/products/:id" Component={ProductDetail} />
+        <Route exact path="/shophub/cart" Component={Cart} />
+        <Route exact path="/shophub/checkout" Component={Checkout} />
+        <Route exact path="/shophub/about" Component={About} />
+        <Route exact path="/shophub/contact" Component={Contact} />
       </Routes>
       <Footer />
     </>
