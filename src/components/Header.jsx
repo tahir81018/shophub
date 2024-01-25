@@ -23,27 +23,27 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <NavLink className="nav-link" aria-current="page" to="/">
+                <NavLink className="nav-link" aria-current="page" to="/shophub/">
                   Home
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/products">
+                <NavLink className="nav-link" to="/shophub/products">
                   Product
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/about">
+                <NavLink className="nav-link" to="/shophub/about">
                   About
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/contact">
+                <NavLink className="nav-link" to="/shophub/contact">
                   Contact
                 </NavLink>
               </li>
             </ul>
-            <NavLink className="navbar-brand mx-auto fw-bold" to="/">
+            <NavLink className="navbar-brand mx-auto fw-bold" to="/shophub/">
               ShopHub
             </NavLink>
             <Login />
